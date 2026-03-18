@@ -1,10 +1,13 @@
 Automation Recommendations
 ==========================
 
+ 
+
 <br>Automation Goal
 -------------------
 
-  
+ 
+
 Automation should reduce release risk and execution time without pretending that
 every AI behavior can be asserted perfectly.
 
@@ -15,7 +18,8 @@ workflows, persistence checks, and release blockers.
 Automate First
 --------------
 
-  
+ 
+
 High-value candidates:  
 - install / launch / reach chat  
 - first-run flow sanity  
@@ -28,11 +32,13 @@ High-value candidates:
 
 These form the backbone of a reliable build-verification pipeline.  
 
+ 
 
 Automate Next
 -------------
 
-  
+ 
+
 Once the product and UI are stable:  
 - integration token field validation  
 - model switching flows  
@@ -40,11 +46,13 @@ Once the product and UI are stable:
 - offline mode sanity behavior  
 - regression around background / foreground handling  
 
+ 
 
 Keep Partly Manual
 ------------------
 
-  
+ 
+
 Some areas should remain manual or exploratory-heavy:  
 - response quality judgment beyond simple sanity prompts  
 - image analysis nuance  
@@ -52,11 +60,13 @@ Some areas should remain manual or exploratory-heavy:
 - UX confusion in onboarding  
 - low-storage, interruption, and recovery nuance across OEM behavior  
 
+ 
 
 Exploratory Focus Areas
 -----------------------
 
-  
+ 
+
 Where I would spend manual exploratory time:  
 - onboarding clarity  
 - trust and privacy perception  
@@ -66,20 +76,16 @@ Where I would spend manual exploratory time:
 - model switching under load  
 - retrieval quality consistency  
 
+ 
 
 CI / Release Pipeline View
 --------------------------
 
-  
+ 
+
 A practical rollout would be:  
 1. **PR / build stage:** smoke automation  
 2. **release candidate stage:** RVS automation + targeted manual checks  
 3. **milestone / pre-major-release stage:** deeper regression, exploratory, and
 device-matrix expansion
 
-<br>Why This Shows Leadership
------------------------------
-
-The point is not to automate everything. The point is to automate what should
-never break silently, while reserving human attention for product-risk areas
-where judgment matters.
