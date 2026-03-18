@@ -37,7 +37,6 @@ Examples:
 
 A P1 usually requires careful triage against release scope and user impact.  
 
-
 ### P2 - Minor<br>
 
 Examples:  
