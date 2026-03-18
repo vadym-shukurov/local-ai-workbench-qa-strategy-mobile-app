@@ -116,3 +116,5 @@ The value is not only in the labels. The value is in how labels drive:
 - release gate decisions  
 - communication with product/engineering  
 - tradeoff discussions under schedule pressure
+
+ 
