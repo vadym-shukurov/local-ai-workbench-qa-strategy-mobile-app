@@ -26,6 +26,7 @@ Examples:
 A P0 means the release should not ship unless explicitly accepted by leadership
 under exceptional conditions.  
 
+ 
 
 ### P1 - Major
 
@@ -37,6 +38,7 @@ Examples:
 
 A P1 usually requires careful triage against release scope and user impact.  
 
+ 
 
 ### P2 - Minor
 
@@ -52,25 +54,30 @@ How the Priority Model Supports the Suite Structure
 
 -------------------------------------------------------
 
+ 
+
 ### Fast Smoke
 
 Uses a tiny slice of mostly P0/P1 user journeys to reject obviously bad builds
 quickly.  
 
+ 
 
 ### Release Verification
 
 Focuses on the highest-value and highest-risk scenarios, mostly P0/P1, with
 selected P2 checks only where they are disproportionately visible or likely.  
 
+ 
 
-### Full Regression<br>
+### Full Regression
 
 Retains broad coverage across all priorities, including low-frequency edge cases
 and failure paths.  
 
+ 
 
-Practical Release Framing
+### Practical Release Framing
 
 -----------------------------
 
