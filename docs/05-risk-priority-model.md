@@ -52,6 +52,7 @@ A P2 should still be tracked, but typically does not block release by itself.
 
 How the Priority Model Supports the Suite Structure
 
+
 -------------------------------------------------------
 
  
@@ -89,7 +90,8 @@ A QA lead should align bug priority with product promise:
 - offline behavior must be transparent and safe  
 
 
-Example Release Blockers for This Product
+
+### Example Release Blockers for This Product
 
 ---------------------------------------------
 
@@ -103,9 +105,11 @@ Likely P0 outcomes include:
 - deleting or switching threads causes state loss  
 
 
-Why This Model Shows QA Leadership
+
+### Why This Model Shows QA Leadership
 
 --------------------------------------
+
 
 The value is not only in the labels. The value is in how labels drive:  
 - execution order  
