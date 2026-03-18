@@ -105,16 +105,3 @@ Likely P0 outcomes include:
 - deleting or switching threads causes state loss  
 
 
-
-### Why This Model Shows QA Leadership
-
---------------------------------------
-
-
-The value is not only in the labels. The value is in how labels drive:  
-- execution order  
-- release gate decisions  
-- communication with product/engineering  
-- tradeoff discussions under schedule pressure
-
- 
