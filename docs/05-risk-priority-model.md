@@ -11,7 +11,7 @@ not by technical curiosity.
 
  
 
-### P0 - Release Blocker<br>
+### P0 - Release Blocker
 
 Examples:
 
@@ -27,7 +27,7 @@ A P0 means the release should not ship unless explicitly accepted by leadership
 under exceptional conditions.  
 
 
-### P1 - Major<br>
+### P1 - Major
 
 Examples:  
 - important feature broken but workaround may exist  
@@ -37,7 +37,8 @@ Examples:
 
 A P1 usually requires careful triage against release scope and user impact.  
 
-### P2 - Minor<br>
+
+### P2 - Minor
 
 Examples:  
 - non-critical behavior issue  
@@ -47,16 +48,17 @@ Examples:
 A P2 should still be tracked, but typically does not block release by itself.  
 
 
-How the Priority Model Supports the Suite Structure<br>
+How the Priority Model Supports the Suite Structure
+
 -------------------------------------------------------
 
-### Fast Smoke<br>
+### Fast Smoke
 
 Uses a tiny slice of mostly P0/P1 user journeys to reject obviously bad builds
 quickly.  
 
 
-### Release Verification<br>
+### Release Verification
 
 Focuses on the highest-value and highest-risk scenarios, mostly P0/P1, with
 selected P2 checks only where they are disproportionately visible or likely.  
@@ -68,7 +70,8 @@ Retains broad coverage across all priorities, including low-frequency edge cases
 and failure paths.  
 
 
-Practical Release Framing<br>
+Practical Release Framing
+
 -----------------------------
 
 A QA lead should align bug priority with product promise:  
@@ -79,7 +82,8 @@ A QA lead should align bug priority with product promise:
 - offline behavior must be transparent and safe  
 
 
-Example Release Blockers for This Product<br>
+Example Release Blockers for This Product
+
 ---------------------------------------------
 
 Likely P0 outcomes include:  
@@ -92,7 +96,8 @@ Likely P0 outcomes include:
 - deleting or switching threads causes state loss  
 
 
-Why This Model Shows QA Leadership<br>
+Why This Model Shows QA Leadership
+
 --------------------------------------
 
 The value is not only in the labels. The value is in how labels drive:  
